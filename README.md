@@ -1,31 +1,32 @@
-        # Limited Reversi プライバシーポリシー
+# Limited Reversi — Privacy Policy & Terms of Service
 
-        最終更新日: 2025年10月21日
+[Limited Reversi](https://apps.apple.com/) のプライバシーポリシーおよび利用規約を
+GitHub Pages で公開するためのリポジトリです。
 
-        このプライバシーポリシー（以下「本ポリシー」といいます。）は、kazuki kagawa（以下「当方」といいます。）が提供するスマートフォン向けアプリケーション「Limited Reversi」（以下「本アプリ」といいます。）における利用者情報の取扱いについて定めるものです。
+## 公開URL
 
-        ## 1. 収集する情報
+| ドキュメント | 言語 | URL |
+|---|---|---|
+| プライバシーポリシー | 日本語 | <https://ppoonn.net/imited-reversi-privacy/> |
+| Privacy Policy | English | <https://ppoonn.net/imited-reversi-privacy/privacy-policy-en.html> |
+| 利用規約 | 日本語 | <https://ppoonn.net/imited-reversi-privacy/terms-of-service.html> |
+| Terms of Service | English | <https://ppoonn.net/imited-reversi-privacy/terms-of-service-en.html> |
 
-        本アプリでは、以下の情報を収集することがあります。
+## ファイル構成
 
-        - **広告ID (IDFA/AAID):**
-          本アプリでは、広告配信のためにGoogle AdMob SDKを利用しており、お使いのデバイスの広告IDを収集することがあります。この広告IDは、個人を特定するものではありません。広告IDの利用停止方法については、お使いのデバイスの設定をご確認ください。
-        - **利用状況に関する情報:**
-          本アプリの改善のため、Firebase Analyticsを利用し、本アプリの利用状況（起動回数、プレイ時間、クラッシュ情報など）を匿名で収集することがあります。
+| ファイル | 役割 |
+|---|---|
+| `index.html` | プライバシーポリシー（日本語）。既存URL `/` で配信 |
+| `privacy-policy-en.html` | Privacy Policy (English) |
+| `terms-of-service.html` | 利用規約（日本語） |
+| `terms-of-service-en.html` | Terms of Service (English) |
+| `style.css` | 共通スタイル（ライト/ダーク両対応、モバイル最適化） |
+| `app-ads.txt` | AdMob 認証用 |
 
-        ## 2. 利用目的
+各ページ上部のナビで「プライバシー ↔ 利用規約」「日本語 ↔ English」を相互に行き来できます。
 
-        当方は、収集した情報を以下の目的で利用します。
+## 更新時の手順
 
-        - ユーザーに合わせた広告を表示するため
-        - 本アプリのサービス向上および改善のため
-        - お問い合わせに対応するため
-
-        ## 3. 第三者への提供
-
-        当方は、以下の場合を除き、収集した情報を第三者に提供することはありません。
-
-        - 法令に基づく場合
-        - ユーザーの同意がある場合
-        - 広告配信事業者（Google LLC）が、広告配信の目的で情報を収集する場合。Googleのプライバシーポリシーについては、以下をご参照ください: [https://policies.google.com/privacy](https://policies.google.com/privacy)
-        - 分析サービス提供事業者（Google LLC）が、サービス改善の目的で情報を収集する場合。
+1. 該当 HTML を編集
+2. 各ファイル冒頭の「最終更新日 / Last updated」を更新
+3. コミット＆プッシュ → GitHub Pages 反映（数分）
